@@ -1,1 +1,1 @@
-A private, peer-to-peer encrypted chat app for local Wi-Fi communication with no servers in between.
+A private, peer-to-peer chat app for local Wi-Fi and no servers in between.
