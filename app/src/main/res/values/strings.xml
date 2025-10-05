@@ -1,0 +1,107 @@
+<!--
+// string constants from xml: getString(R.string.name_of_definition)
+// in xml: android:text="@string/name_of_definition"
+-->
+<resources>
+    <string name="app_name">Simple Chat</string>
+
+    <string name="title_settings_activity">Settings</string>
+    <string name="title_lobby_activity">Lobby</string>
+    <string name="title_chat_activity">Chat</string>
+
+    <string name="text_yes">Yes</string>
+    <string name="text_no">No</string>
+    <string name="text_ok">OK</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="text_back">Back</string>
+
+    <!-- MainActivity -->
+    <string name="main_menu_settings">Settings</string>
+
+    <string name="main_app_unknown_version">Cannot get current app version.</string>
+
+    <string name="main_btn_find_room">Find Room</string>
+    <string name="main_btn_create_room">Create Room</string>
+    <string name="main_iv_game_icon">Game Icon</string>
+
+    <string name="main_dialog_find_user">user_name (at least 4)</string>
+    <string name="main_dialog_create_room">chat_room_name (at least 4)</string>
+
+    <string name="main_return_message_no_user">No user name has been entered.</string>
+    <string name="main_return_message_no_room">No room name has been entered.</string>
+    <string name="main_return_message_no_network_interface">No network interface has been chosen.</string>
+    <string name="main_return_message_lost_connection">Connection was lost.</string>
+    <string name="main_return_message_other_exit">Other user has left the chat.</string>
+    <string name="main_return_message_own_exit">Ended chat.</string>
+    <string name="main_return_message_lobby_exit">Chat lobby overview closed.</string>
+    <string name="main_return_message_invalid_lobby">Lobby entry is invalid.</string>
+    <string name="main_create_room_title">Create chat room</string>
+    <string name="main_find_room_title">Find chat room</string>
+
+    <string name="main_user_empty">User name must not be empty.</string>
+    <string name="main_user_length_to_low">User name length must be higher equal \'%1$d\'.</string>
+    <string name="main_room_empty">Room name must not be empty.</string>
+    <string name="main_room_length_to_low">Room name length must be higher equal \'%1$d\'.</string>
+
+    <!-- LobbyActivity -->
+    <string name="lobby_no_room_chosen">No chat room has been chosen.</string>
+    <string name="lobby_entry_empty">No lobby entry has been chosen.</string>
+    <string name="lobby_entry_not_found">Lobby entry not found.</string>
+
+    <string name="lobby_btn_join">Join</string>
+    <string name="lobby_btn_join_manually">Join manually</string>
+
+    <string name="lobby_join_manually_title">Room connection settings</string>
+    <string name="lobby_join_manually_host">IP of host</string>
+    <string name="lobby_join_manually_port">Port (12894 or 8081)</string>
+
+    <string name="lobby_ip_empty">IP address must not be empty.</string>
+    <string name="lobby_ip_length_to_low">IP address length must be higher equal \'%1$d\'.</string>
+    <string name="lobby_port_empty">Port must not be empty.</string>
+    <string name="lobby_port_is_not_integer">Port is not an integer.</string>
+    <string name="lobby_port_to_low">Port must be higher equal \'%1$d\'.</string>
+    <string name="lobby_port_to_high">Port must be lower equal \'%1$d\'.</string>
+
+    <!-- ChatActivity -->
+    <string name="chat_no_network_interfaces">No network interfaces available</string>
+    <string name="chat_exit_title">Close chat</string>
+    <string name="chat_exit_message">Are you sure to close the chat?</string>
+
+    <string name="chat_message_hint">Enter Message…</string>
+    <string name="chat_btn_send">Send</string>
+
+    <string name="chat_waiting">Waiting for other chat user…</string>
+    <string name="chat_exit">User \'%1$s\' has left the chat. Please use the back button.</string>
+    <string name="chat_lost">User \'%1$s\' lost connection to the chat. Please use the back button.</string>
+
+    <!-- SettingsActivity -->
+    <string name="settings_category_general">General</string>
+    <string name="settings_general_locale">Language</string>
+
+    <string name="settings_category_udp_settings">UDP Settings</string>
+    <string name="settings_udp_network_interface_name">UDP Network Interface Name</string>
+    <string name="settings_udp_multicast_ip">Multicast IP</string>
+    <string name="settings_udp_multicast_port">Multicast Port</string>
+    <string name="settings_udp_multicast_ttl">Multicast TTL</string>
+
+    <string name="settings_category_tcp_settings">TCP Settings</string>
+    <string name="settings_tcp_server_port">Server Port</string>
+    <string name="settings_tcp_common_passphrase">Common Passphrase</string>
+    <string name="settings_tcp_encryption">Use encryption</string>
+
+    <string name="settings_password_dialog_fragment_key_missing">Preference key for password dialog fragment is required.</string>
+    <string name="settings_password_dialog_fragment_title_missing">Title for password dialog fragment is required.</string>
+
+    <string name="settings_language_changed">Language changed. App will restart in %1$d sec.</string>
+    <string name="settings_value_empty">Setting value must not be empty.</string>
+    <string name="settings_general_backup_folder_false_start">Backup folder must start with \'Documents/\'.</string>
+    <string name="settings_value_is_not_integer">Setting value is not an integer.</string>
+    <string name="settings_value_not_https">Setting value does not start with \'https://\'.</string>
+    <string name="settings_value_missing_placeholder_one">Setting value does not contain \'%1\'.</string>
+    <string name="settings_value_missing_placeholder_two">Setting value does not contain \'%2\'.</string>
+    <string name="settings_value_missing_placeholder_three">Setting value does not contain \'%3\'.</string>
+    <string name="settings_value_length_to_low">Settings value length must be higher equal \'%1$d\'.</string>
+    <string name="settings_value_length_to_high">Settings value length must be lower equal \'%1$d\'.</string>
+    <string name="settings_value_to_low">Settings value must be higher equal \'%1$d\'.</string>
+    <string name="settings_value_to_high">Settings value must be lower equal \'%1$d\'.</string>
+</resources>

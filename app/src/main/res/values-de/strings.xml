@@ -1,0 +1,107 @@
+<!--
+// string constants from xml: getString(R.string.name_of_definition)
+// in xml: android:text="@string/name_of_definition"
+-->
+<resources>
+    <string name="app_name">Simple Chat</string>
+
+    <string name="title_settings_activity">Eintellungen</string>
+    <string name="title_lobby_activity">Lobby</string>
+    <string name="title_chat_activity">Chat</string>
+
+    <string name="text_yes">Ja</string>
+    <string name="text_no">Nein</string>
+    <string name="text_ok">OK</string>
+    <string name="text_cancel">Abbrechen</string>
+    <string name="text_back">Zurück</string>
+
+    <!-- MainActivity -->
+    <string name="main_menu_settings">Eintellungen</string>
+
+    <string name="main_app_unknown_version">Die aktuelle App-Version kann nicht abgerufen werden.</string>
+
+    <string name="main_btn_find_room">Raum finden</string>
+    <string name="main_btn_create_room">Raum erstellen</string>
+    <string name="main_iv_game_icon">Spiel-Symbol</string>
+
+    <string name="main_dialog_find_user">user_name (at least 4)</string>
+    <string name="main_dialog_create_room">chat_room_name (at least 4)</string>
+
+    <string name="main_return_message_no_user">Kein Benutzer wurde angegeben.</string>
+    <string name="main_return_message_no_room">Kein Raum wurde angegeben.</string>
+    <string name="main_return_message_no_network_interface">Keine Netzwerkschnittstelle wurde ausgewählt.</string>
+    <string name="main_return_message_lost_connection">Verbindung verloren.</string>
+    <string name="main_return_message_other_exit">Anderer Benutzer hat den Chat verlassen.</string>
+    <string name="main_return_message_own_exit">Chat beendet.</string>
+    <string name="main_return_message_lobby_exit">Chat Lobby-Übersicht geschlossen.</string>
+    <string name="main_return_message_invalid_lobby">Lobby Eintrag ist ungültig.</string>
+    <string name="main_create_room_title">Chat-Raum erstellen</string>
+    <string name="main_find_room_title">Chat-Raum finden</string>
+
+    <string name="main_user_empty">Der Benutzername darf nicht leer sein.</string>
+    <string name="main_user_length_to_low">Die Länge des Benutzernamens muss größer oder gleich \'%1$d\' sein.</string>
+    <string name="main_room_empty">Der Raumname darf nicht leer sein.</string>
+    <string name="main_room_length_to_low">Die Länge des Raumnamens muss größer oder gleich \'%1$d\' sein.</string>
+
+    <!-- LobbyActivity -->
+    <string name="lobby_no_room_chosen">Kein Chat-Raum ausgewählt.</string>
+    <string name="lobby_entry_empty">Kein Lobby Eintrag ausgewählt.</string>
+    <string name="lobby_entry_not_found">Lobby Eintrag nicht gefunden.</string>
+
+    <string name="lobby_btn_join">Beitreten</string>
+    <string name="lobby_btn_join_manually">Beitreten (manuell)</string>
+
+    <string name="lobby_join_manually_title">Raum Verbindungseinstellungen</string>
+    <string name="lobby_join_manually_host">IP-Adresse des Hosts</string>
+    <string name="lobby_join_manually_port">Port (12894 oder 8081)</string>
+
+    <string name="lobby_ip_empty">IP-Adresse darf nicht leer sein.</string>
+    <string name="lobby_ip_length_to_low">Die Länge der IP-Adresse muss größer oder gleich \'%1$d\' sein.</string>
+    <string name="lobby_port_empty">Port darf nicht leer sein.</string>
+    <string name="lobby_port_is_not_integer">Port ist keine ganze Zahl.</string>
+    <string name="lobby_port_to_low">Port muss größer oder gleich \'%1$d\' sein.</string>
+    <string name="lobby_port_to_high">Port muss kleiner oder gleich \'%1$d\' sein.</string>
+
+    <!-- ChatActivity -->
+    <string name="chat_no_network_interfaces">Keine Netzwerkschnittstelle verfügbar</string>
+    <string name="chat_exit_title">Chat beenden</string>
+    <string name="chat_exit_message">Möchten Sie den Chat wirklich schließen?</string>
+
+    <string name="chat_message_hint">Nachricht eingeben…</string>
+    <string name="chat_btn_send">Senden</string>
+
+    <string name="chat_waiting">Warte auf anderen Chat Benutzer…</string>
+    <string name="chat_exit">Benutzer \'%1$s\' hat den Chat verlassen. Bitte benutzen Sie den Back-Button.</string>
+    <string name="chat_lost">Benutzer \'%1$s\' hat die Verbindung verloren. Bitte benutzen Sie den Back-Button.</string>
+
+    <!-- SettingsActivity -->
+    <string name="settings_category_general">Allgemein</string>
+    <string name="settings_general_locale">Spracheinstellungen</string>
+
+    <string name="settings_category_udp_settings">UDP Einstellungen</string>
+    <string name="settings_udp_network_interface_name">UDP Netzwerkschnittstellen-Name</string>
+    <string name="settings_udp_multicast_ip">Multicast IP</string>
+    <string name="settings_udp_multicast_port">Multicast Port</string>
+    <string name="settings_udp_multicast_ttl">Multicast TTL</string>
+
+    <string name="settings_category_tcp_settings">TCP Einstellungen</string>
+    <string name="settings_tcp_server_port">Server Port</string>
+    <string name="settings_tcp_common_passphrase">Gemeinsames Passwort</string>
+    <string name="settings_tcp_encryption">Verschlüsselung aktiv</string>
+
+    <string name="settings_password_dialog_fragment_key_missing">Der Präferenzschlüssel für das Passwortdialogfeld ist erforderlich.</string>
+    <string name="settings_password_dialog_fragment_title_missing">Der Titel für das Passwortdialogfeld ist erforderlich.</string>
+
+    <string name="settings_language_changed">Sprache geändert. Die App wird neu gestartet in %1$d sek.</string>
+    <string name="settings_value_empty">Der Einstellwert darf nicht leer sein.</string>
+    <string name="settings_general_backup_folder_false_start">Der Backup-Ordner muss mit \'Documents/\' beginnen.</string>
+    <string name="settings_value_is_not_integer">Der Einstellwert ist keine ganze Zahl.</string>
+    <string name="settings_value_not_https">Der Einstellwert beginnt nicht mit \'https://\'.</string>
+    <string name="settings_value_missing_placeholder_one">Der Einstellwert beginnt nicht \'%1\'.</string>
+    <string name="settings_value_missing_placeholder_two">Der Einstellwert beginnt nicht \'%2\'.</string>
+    <string name="settings_value_missing_placeholder_three">Der Einstellwert beginnt nicht \'%3\'.</string>
+    <string name="settings_value_length_to_low">Die Länge des Einstellungswerts muss größer oder gleich \'%1$d\' sein.</string>
+    <string name="settings_value_length_to_high">Die Länge des Einstellungswerts muss kleiner oder gleich \'%1$d\' sein.</string>
+    <string name="settings_value_to_low">Der Einstellungswert muss größer oder gleich \'%1$d\' sein.</string>
+    <string name="settings_value_to_high">Der Einstellungswert muss kleiner oder gleich \'%1$d\' sein.</string>
+</resources>

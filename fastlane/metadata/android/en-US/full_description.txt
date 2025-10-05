@@ -1,0 +1,9 @@
+This app is a simple and secure chat tool that allows two users to communicate directly over a local Wi-Fi network. All messages are end-to-end encrypted and exchanged without any central server - ensuring full privacy and keeping your data within your network.
+
+You can connect to another user in two ways:
+- Automatic discovery: Find available chat rooms automatically using UDP multicast over local wifi.
+- Manual connection: Enter the known IP address and port of another device in the local wifi to connect directly.
+
+The app is built with Android, using Java 21 and Kotlin, and relies on the developer's own framework forestJ for reliable, encrypted peer-to-peer data exchange.
+
+Everything happens locally - fast, simple, and private.
